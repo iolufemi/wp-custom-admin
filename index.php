@@ -1,2 +1,3 @@
-<?php
-// Customized silence is the most golden of all silences.
+<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
+   <!-- Post stuff -->
+</div>

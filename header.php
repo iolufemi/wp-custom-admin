@@ -56,7 +56,7 @@
 
 	<!-- Primary Page Layout
 	================================================== -->
-<header>
+<header <?php if(wp_is_mobile()){ ?> style="position: static !important;" <?php } ?> >
 <div class="container">
 <div class="logo">
 <a href="<?php echo home_url(); //make logo a home link?>">
